@@ -2,7 +2,7 @@ package main
 
 import (
 	//"time"
-	"go-forward/forwarder"
+	"https://github.com/lagerstrom/go-forward"
 )
 
 func main() {
