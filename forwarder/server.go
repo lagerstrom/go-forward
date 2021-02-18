@@ -51,7 +51,7 @@ func StartServer() {
 		}
 	}
 
-	listener, err := net.Listen("tcp", "localhost:"+strconv.Itoa(Config.srcPort))
+	listener, err := net.Listen("tcp", strconv.Itoa(Config.srcPort))
 	if err != nil {
 		log.Fatalf("Listen failed: %v", err)
 	}
